@@ -1,0 +1,77 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url('https://www.mayflower.com/wp-content/uploads/2022/05/Miami-City-Guide_Header-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.calc {
+    padding: 20px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    background-image: url('https://i.playboard.app/p/673609aa2cdd6ae45670ea1efd3bee75/default.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.inp {
+    border-radius: 5px;
+    width: 150px;
+    align-items: center;
+    margin-left: 35px;
+    font-size: initial;
+}
+
+.but {
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#btn-1 {
+    background-color: red;
+}
+
+#btn-2 {
+    background-color: blue;
+}
+
+#btn-3 {
+    background-color: aqua;
+}
+
+#btn-4 {
+    background-color: gold;
+}
+
+#btn-5 {
+    background-color:chocolate;
+}
+
+#btn-6 {
+    background-color: gray;
+}
+
+.rst {
+    margin-top: 20px;
+}
